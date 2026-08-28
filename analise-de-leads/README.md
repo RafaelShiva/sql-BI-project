@@ -2,7 +2,7 @@
 
 Segundo projeto final do curso [SQL para Análise de Dados](https://www.udemy.com/course/sql-para-analise-de-dados/) (Udemy). O objetivo original era construir o dashboard no Excel; optei por refazer a análise completa no **Power BI**.
 
-![Preview do dashboard](./screenshots/perfil-leads.jpg)
+![Preview do dashboard](./analise-de-leads/screenshot/perfil-leads.jpg)
 
 🔗 O arquivo .pbix está disponível neste repositório — abra no Power BI Desktop (gratuito) para explorar as interações
 
