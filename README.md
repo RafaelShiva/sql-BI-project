@@ -9,7 +9,7 @@ O curso ensinava a construção dos dashboards no **Excel**, mas optei por refaz
 | Projeto | Descrição | Pasta |
 |---|---|---|
 | 📊 Dashboard de Vendas | Painel de acompanhamento de vendas construído a partir de consultas SQL | [`/dashboard-vendas`](./dashboard-vendas) |
-| 🚗 Análise de Leads | Análise de pessoas que visitam o site da concessionária de veículos | [`/analise-de-leads`] (./analise de leads) |
+| 🚗 Análise de Leads | Análise de pessoas que visitam o site da concessionária de veículos | [`/analise-de-leads`] (./analise-de-leads) |
 
 Cada pasta contém seu próprio README com detalhes do projeto, prints do dashboard, queries SQL utilizadas e o link para o dashboard publicado no Power BI Service.
 
