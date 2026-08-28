@@ -4,12 +4,13 @@ Segundo projeto final do curso [SQL para Análise de Dados](https://www.udemy.co
 
 ![Preview do dashboard](./screenshot/perfil-leads.jpg)
 
-🔗 O arquivo .pbix está disponível neste repositório — abra no Power BI Desktop (gratuito) para explorar as interações
+🔗 O arquivo `.pbix` está disponível neste repositório — abra no Power BI Desktop (gratuito) para explorar o dashboard.
+
+> **Nota:** os gráficos não possuem correlação entre si (cross-filtering), pois cada um foi construído a partir de queries SQL independentes, que já retornavam os dados agregados prontos para cada visual — seguindo a estrutura proposta no curso.
 
 ## Objetivo do projeto
 
 Analisar o perfil dos leads de uma concessionária de veículos a partir da base de dados do curso, identificando padrões de compra, características demográficas e comportamento de consumo.
-
 
 
 ## Fonte dos dados
@@ -19,7 +20,7 @@ Base de dados de uma concessionária de veículos do curso
 ## O que foi feito
 
 1. **Extração e tratamento dos dados via SQL**
-   As queries utilizadas para extrair e tratar os dados estão em [`/sql/queries.sql`].
+   As queries utilizadas para extrair e tratar os dados estão em [`/sql/queries.sql`](./sql/queries.sql).
 
 2. **Modelagem no Power BI**
    [Diferente de um modelo relacional tradicional, os dados foram preparados previamente via queries SQL individuais, cada uma já retornando o resultado agregado necessário para um gráfico específico (ex: contagem de clientes por gênero, por status profissional, por faixa etária). Os resultados dessas queries foram exportados para uma planilha Excel, com uma aba/tabela por consulta, e importados diretamente no Power BI.
